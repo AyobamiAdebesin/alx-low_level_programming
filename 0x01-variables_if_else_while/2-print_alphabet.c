@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	char c;
-	for (c == "A";, c <="Z";, ++c;)
+	int c;
+	for (c = 75;, c <=90;, ++c;)
 	{
 		putchar("%c", c);
 	}

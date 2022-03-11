@@ -14,7 +14,7 @@ int main(void)
 	{
 		if (i == 102 && i == 113)
 		{
-			return;
+			continue;
 		}
 		else{
 			putchar(i);

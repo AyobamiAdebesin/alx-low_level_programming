@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	for (i = 65; i <=90; ++i;)
 	{
-		putchar("%c", i);
+		putchar(i);
 	}
 	return (0);
 }

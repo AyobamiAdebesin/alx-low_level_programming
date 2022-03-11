@@ -9,7 +9,7 @@ int main(void)
 
 	while (k < 58)
 	{
-		i = 48;
+		j = 48;
 		while (j < 58)
 		{
 			putchar(k);

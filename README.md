@@ -1,1 +1,1 @@
-This repositry contains the alx low level programming module from ALX Software Engineering School
+This repositry contains the ALX low level programming module from ALX Software Engineering School

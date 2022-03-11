@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-	int c;
-	for (c = 75; c <=90; ++c;)
+	int i;
+	for (i = 65; i <=90; ++i;)
 	{
-		putchar("%c", c);
+		putchar("%c", i);
 	}
 	return (0);
 }

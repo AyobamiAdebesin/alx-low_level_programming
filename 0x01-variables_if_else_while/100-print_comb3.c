@@ -12,14 +12,16 @@ int main(void)
 		j = 48;
 		while (j < 58)
 		{
-			putchar(k);
-			putchar(j);
-			if ( j == 57 && k == 57)
+			if (k != j && k < j)
 			{
-				break;
-			}
-			putchar(',');
-			putchar(' ');
+				putchar(k);
+				putchar(j);
+				if ( j == 57 && k == 57)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
 			j++;
 		}
 		k++;

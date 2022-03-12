@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry Point
+ * main - Prints numbers between 00 and 89
  *
  * Return: Always 0 (Success)
  */

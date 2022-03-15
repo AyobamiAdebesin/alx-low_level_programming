@@ -4,7 +4,7 @@
  *
  * Return: void always(Success)
  */
-void print_main_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int count = 97;
 	int loop_print;

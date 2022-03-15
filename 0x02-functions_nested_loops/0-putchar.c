@@ -15,6 +15,6 @@ int main(void)
 		_putchar(chr_val[count]);
 	}
 	_putchar('\n');
-	return 0;
+	return(0);
 }
 	

@@ -8,7 +8,7 @@ void print_alphabet(void)
 {
 	int count = 97;
 
-	while (count < 113)
+	while (count < 123)
 	{
 		_putchar(count);
 		count ++;

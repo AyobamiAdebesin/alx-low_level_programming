@@ -9,7 +9,7 @@ void print_main_alphabet(void)
 	int count = 97;
 	int loop_print;
 	
-	for (loop_count = 0; loop_count <= 10; loop_count++)
+	for (loop_print = 0; loop_print <= 10; loop_print++)
 	{
 		while (count < 123)
 		{

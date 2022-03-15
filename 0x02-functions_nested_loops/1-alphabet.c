@@ -4,6 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
+
 void print_alphabet(void)
 {
 	int count = 97;
@@ -14,6 +15,4 @@ void print_alphabet(void)
 		count++;
 	}
 	_putchar('\n');
-
-	return (void);
 }

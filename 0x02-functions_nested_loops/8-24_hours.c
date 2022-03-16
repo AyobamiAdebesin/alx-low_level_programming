@@ -2,7 +2,8 @@
 /**
  * jack_bauer - Print every minute of the day of Jack Bauer
  *
- * Return: Every minute of the day of Jack Bauer (0<=a<=2, 0<=b<=9, 0<=c<=5, 0<=d<= 9)
+ * Return: Every minute of the day of Jack Bauer
+ *(0<=a<=2, 0<=b<=9, 0<=c<=5, 0<=d<= 9)
  */
 void jack_bauer(void)
 {

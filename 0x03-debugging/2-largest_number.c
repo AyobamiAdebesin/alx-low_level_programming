@@ -2,11 +2,9 @@
 
 /**
  * largest_number - Print the largest number of 3 numbers
- *
  * @a: The first number
  * @b: The second number
  * @c: The last number
- * 
  * Return: The largest number of the 3
  */
 

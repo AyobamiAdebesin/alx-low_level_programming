@@ -10,7 +10,7 @@
  */
 void print_to_98(int c)
 {
-	if (c > 0 && c < 98) 
+	if (c > 0 && c <= 98) 
 	{
 		for (; c <= 98; c ++)
 		{

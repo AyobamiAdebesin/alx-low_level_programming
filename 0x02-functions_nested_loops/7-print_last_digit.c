@@ -18,6 +18,6 @@ int print_last_digit(int n)
 	else
 	{
 		_putchar(result + 48);
-		return (l);
+		return (result);
 	}
 }

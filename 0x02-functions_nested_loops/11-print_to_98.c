@@ -12,23 +12,23 @@ void print_to_98(int c)
 {
 	if (c > 0 && c < 98) 
 	{
-		for (int count = c; count <= 98; count ++)
+		for (; c <= 98; c ++)
 		{
-			printf("%d, ",count);
+			printf("%d, ",c);
 		}
 	}
 	else if (c < 0)
 	{
-		for (int count2 = c; count2 <= 98; count2 ++)
+		for (; c <= 98; c ++)
 		{
-			printf("%d, ", count2);
+			printf("%d, ", c);
 		}
 	}
 	else if (c > 98)
 	{
-		for (int count3 = c; count3 >= 98, count3 --)
+		for (; c >= 98; c --)
 		{
-			printf("%d, ", count3);
+			printf("%d, ", c);
 		}
 	}
 	_putchar('\n');

@@ -9,13 +9,9 @@ int print_most_numbers(void)
 
 	for (count = 48; count < 57; count++)
 	{
-		if (count == 50 || count == 52)
+		while (count != 50 || count != 52)
 		{
-			break;
-		}
-		else
-		{
-		__putchar(count);
+			_putchar(count);
 		}
 	}
 	_putchar('\n');

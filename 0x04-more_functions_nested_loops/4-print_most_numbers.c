@@ -12,7 +12,7 @@ void print_most_numbers(void)
 
 	for (count = 48; count < 58; count++)
 	{
-		while (count != 50 && count != 52)
+		if (count != 50 && count != 52)
 		{
 			_putchar(count);
 		}

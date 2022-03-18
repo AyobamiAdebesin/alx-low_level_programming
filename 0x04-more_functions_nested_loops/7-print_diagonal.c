@@ -10,7 +10,7 @@ void print_diagonal(int n)
 
 	if (n <= 0)
 	{
-		putchar(32);
+		_putchar(32);
 	}
 	else
 	{
@@ -19,11 +19,11 @@ void print_diagonal(int n)
 			count_space = count;
 			while (count_space > 0)
 			{
-				putchar(32);
+				_putchar(32);
 				count_space--;
 			}
-			putchar(92);
-			putchar('\n');
+			_putchar(92);
+			_putchar('\n');
 		}
 	}
 }

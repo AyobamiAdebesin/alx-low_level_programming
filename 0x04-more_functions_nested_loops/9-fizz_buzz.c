@@ -18,10 +18,14 @@ int main(void)
 			}
 			else
 			{
-				printf("Fizz ");
+				printf("Buzz ");
 			}
 		}
-		else if (count % 5 != 0)
+		else if (count % 3 == 0)
+		{
+			printf("Fizz ");
+		}
+		else
 		{
 			printf("%d ", count);
 		}

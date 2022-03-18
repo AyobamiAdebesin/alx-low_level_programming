@@ -1,11 +1,10 @@
-#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * FizzBuzz - Execute the fizz buzz code
+ * main - Execute the fizz buzz code
  * Return: The Fizz Buzz output
  */
-void FizzBuzz(void)
+int main(void)
 {
 	int count;
 
@@ -27,4 +26,5 @@ void FizzBuzz(void)
 			printf("%d ", count);
 		}
 	}
+	return (0);
 }

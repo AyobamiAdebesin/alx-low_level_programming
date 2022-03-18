@@ -10,7 +10,7 @@ int main(void)
 
 	count = 1;
 	printf("%d", count);
-	ifor (count = 2; count <= 100; count++)
+	for (count = 2; count <= 100; count++)
 	{
 		if (count % 5 == 0)
 		{

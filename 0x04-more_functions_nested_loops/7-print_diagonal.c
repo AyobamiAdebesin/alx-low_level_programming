@@ -15,21 +15,20 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (count = 0; count <= n; count++)
+		for (count = 0; count < n; count++)
 		{
-			for (count_space = 0; count_space <= n; count_space++)
+			for (count_space = 0; count_space < n; count_space++)
 			{
 				if (count_space == count)
 				{
-					_putchar(92);
+					_putchar('\\');
 				}
 				else if (count_space < count)
 				{
-					_putchar(32);
+					_putchar(' ');
 				}
 			}
 			_putchar('\n');
 		}
 	}
-}
-					
+}	

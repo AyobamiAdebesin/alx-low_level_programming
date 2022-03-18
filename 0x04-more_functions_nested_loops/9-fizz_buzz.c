@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * FizzBuzz - Execute the fizz buzz code
  * Return: The Fizz Buzz output

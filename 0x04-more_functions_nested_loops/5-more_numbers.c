@@ -15,9 +15,7 @@ void more_numbers(void)
 			if (ch > 57)
 			{
 				_putchar(49);
-				_putchar(ch - 10);
 			}
-			
 			_putchar(ch);
 		}
 		_putchar('\n');

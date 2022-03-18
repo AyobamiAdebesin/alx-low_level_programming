@@ -7,10 +7,10 @@
 int main(void)
 {
 	int count;
+
 	count = 1;
 	printf("%d", count);
-
-	for (count = 2; count <= 100; count++)
+	ifor (count = 2; count <= 100; count++)
 	{
 		if (count % 5 == 0)
 		{
@@ -29,7 +29,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%d ", count);
+			printf(" %d ", count);
 		}
 	}
 	printf("\n");

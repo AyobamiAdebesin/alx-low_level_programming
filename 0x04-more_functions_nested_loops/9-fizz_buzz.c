@@ -22,7 +22,7 @@ void FizzBuzz(void)
 				printf("Fizz ");
 			}
 		}
-		else if (count %5 != 0)
+		else if (count % 5 != 0)
 		{
 			printf("%d ", count);
 		}

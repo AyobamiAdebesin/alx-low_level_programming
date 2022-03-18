@@ -7,23 +7,25 @@
 int main(void)
 {
 	int count;
+	count = 1;
+	printf("%d", count);
 
-	for (count = 1; count <= 100; count++)
+	for (count = 2; count <= 100; count++)
 	{
 		if (count % 5 == 0)
 		{
 			if (count % 3 == 0)
 			{
-				printf("FizzBuzz ");
+				printf(" FizzBuzz");
 			}
 			else
 			{
-				printf("Buzz ");
+				printf(" Buzz");
 			}
 		}
 		else if (count % 3 == 0)
 		{
-			printf("Fizz ");
+			printf(" Fizz");
 		}
 		else
 		{

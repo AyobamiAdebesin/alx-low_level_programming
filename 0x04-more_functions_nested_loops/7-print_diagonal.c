@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - Print a diagonal line on the terminal
+ * @n: The number of lines to be printed
  * Return: The diagonal line
  */
 void print_diagonal(int n)
@@ -14,7 +15,7 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (count = 1; count < n+1; count++)
+		for (count = 1; count < n + 1; count++)
 		{
 			count_space = count;
 			while (count_space > 0)

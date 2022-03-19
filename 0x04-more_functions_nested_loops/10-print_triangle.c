@@ -1,35 +1,22 @@
 #include "main.h"
-/**
- * print_diagonal - Print a diagonal line on the terminal
- * @n: The number of lines to be printed
- * Return: The diagonal line
- */
 
+/**
+ * print_triangle - prints a triangle.
+ * @size: numbers of lines.
+ * Return: no return.
+ */
 void print_triangle(int size)
 {
-	int count;
-	int count_space;
+	int count, count_space;
 
-	if (size <= 0)
+	for (count = 0; count < size; count++)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (count = 0; count < size; count++)
-		{
-			for (count_space = 0; count_space < size; count_space++)
-			{
-				if (count_space == count)
-				{
-					_putchar(' ');
-				}
-				else if (count_space < count)
-				{
-					_putchar(35);
-				}
-			}
+		for (count_space = 1; count_space < (size - count); count_space++)
+			_putchar(' ');
+		for (count_space--; count_space < size; count_space++)
+			_putchar(35);
+		if (count < (size - 1))
 			_putchar('\n');
-		}
 	}
+	_putchar('\n');
 }

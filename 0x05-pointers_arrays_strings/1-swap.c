@@ -13,5 +13,4 @@ void swap_int(int *a, int *b)
 	newA = &b;
 	newB = &a;
 
-	return (0);
 }

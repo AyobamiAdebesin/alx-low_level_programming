@@ -22,7 +22,7 @@ int compare(char *X, char *Y)
 	return (*Y == '\0');
 }
 
-char* _strstr(char* haystack, char* needle)
+char *_strstr(char *haystack, char *needle)
 {
 	while (*haystack != '\0')
 	{

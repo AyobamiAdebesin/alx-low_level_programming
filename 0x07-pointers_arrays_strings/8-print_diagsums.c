@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_diagsums - Print the diagonal sums of a matrix
  * @a: The matrix
@@ -19,11 +20,11 @@ void print_diagsums(int *a, int size )
 		{
 			if (row == col)
 			{
-				left_trace += a[row][col];
+				left_trace += &a[row][col];
 			}
 			if ((col + row) == size - 1)
 			{
-				right_trace += a[row][col];
+				right_trace += &a[row][col];
 			}
 		}
 	}

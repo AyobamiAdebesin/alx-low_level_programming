@@ -27,7 +27,7 @@ int comparator(char* s, int n1, int n2)
 {
 	if (*(s + n1) == *(s + n2))
 	{
-		if (n1 == n2 || n2 = n1 + 1)
+		if (n1 == n2 || n2 == n1 + 1)
 		{
 			return (1);
 		}
@@ -44,7 +44,8 @@ int comparator(char* s, int n1, int n2)
 
 int is_palindrome(char *s)
 {
-	len_s = _str_len(s);
+	int len_s;
+      	len_s = _str_len(s);
 	
 	if (*s == '\0')
 	{

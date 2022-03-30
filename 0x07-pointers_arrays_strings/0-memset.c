@@ -3,7 +3,7 @@
  * _memset - A function that fills the first n bytes
  * @s: The address of the memory to be filled
  * @n: The first n bytes of memory
- * @b: The chracter to fill with
+ * @b: The chracter to fill wit
  *
  * Return: A pointer to the memory area
  */

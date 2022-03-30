@@ -2,7 +2,7 @@
 /**
  * _strlen - Returns the length of a string recursively
  * @s: The string
- * Return: the length of the string s 
+ * Return: the length of the string s
  */
 
 int _str_len(char *s)
@@ -15,7 +15,7 @@ int _str_len(char *s)
 		return (0);
 }
 
-/** 
+/**
  * comparator - Compares a stringusing the first and last character
  * @s: The string pointer
  * @n1: The starting index
@@ -23,7 +23,7 @@ int _str_len(char *s)
  * Return: 1 or 0
  */
 
-int comparator(char* s, int n1, int n2)
+int comparator(char *s, int n1, int n2)
 {
 	if (*(s + n1) == *(s + n2))
 	{

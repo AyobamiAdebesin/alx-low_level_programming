@@ -1,6 +1,6 @@
 #include "main.h"
 
-cahr *_strcat(char *dest, char *src)
+char *_strcat(char *dest __attribute__((unused)), char *src __attribute__((unused)))
 {
-
+    return (dest);
 }

@@ -12,7 +12,6 @@ int main(int argc, char *argv[])
 {
 	int count;
 	int sum;
-	int val;
 
 	if (argc < 2)
 		printf("%d\n", 0);

@@ -11,30 +11,29 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	int count1;
-	unsigned int count2;
+	unsigned int count;
 	char *str;
 	int _strlen_s1 = 0, _strlen_s2 = 0;
 
 	if (s1 == NULL || s2 == NULL)
-		return (' ');
-	for (count1 = 0; *(s1 + count1) != '\0'; count1++)
+		return (NULL);
+	for (count = 0; *(s1 + count) != '\0'; count++)
 		_strlen_s1++;
-	for (count1 = 0; *(s2 + count1) != '\0'; count1++)
+	for (count = 0; *(s2 + count) != '\0'; count++)
 		_strlen_s1++;
 
-	str = malloc((_strlen_s1 + _strlen_s2 + 1), sizeof(char));
+	str = malloc((_strlen_s1 + _strlen_s2 + 1) * sizeof(char));
 	if (str == NULL)
 		return (NULL);
-	for (count1 = 0; count1 <= (_strlen_s1 + _strlen_s2); count++)
+	for (count = 0; count <= (_strlen_s1 + _strlen_s2); count++)
 	{
-		if (count1 <= _strlen_s1)
+		if (count <= _strlen_s1)
 		{
-			str[count1] = s1[count1];
+			str[count] = s1[count];
 		}
-		if (count1 > _strlen_s1)
+		if (count > _strlen_s1)
 		{
-			str[count1] = s2[count1];
+			str[count] = s2[count];
 		}
 	}
 	return (str);

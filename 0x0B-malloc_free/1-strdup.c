@@ -27,3 +27,4 @@ char *_strdup(char *str)
 		arr[count] = str[count];
 	}
 	return (arr);
+}

@@ -1,4 +1,4 @@
-#include "funtion_pointers.h"
+#include "function_pointers.h"
 #include <stdlib.h>
 #include <stddef.h>
 
@@ -7,7 +7,7 @@
  * @array: The array we need to search
  * @size: The size of the array
  * @cmp: The function pointer to be used
- * Return: 0, -1, and int 
+ * Return: 0, -1, and int
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
@@ -22,8 +22,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 		{
 			if (cmp(array[index]) != 0)
 				return (index);
-			else
-				return (-1);
 		}
 	}
+	return (-1);
 }

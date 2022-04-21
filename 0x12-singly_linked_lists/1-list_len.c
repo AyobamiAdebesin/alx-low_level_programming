@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_list - Print the elements of a singly linked list
+ * list_len - Returns the number of elements in a list
  * @h: Pointer to a node
  * Return: The number of nodes in the list
  */

@@ -1,0 +1,4 @@
+for file in *.cpp
+do 
+    vi +':w ++ff=unix' +':q' "$file"
+done

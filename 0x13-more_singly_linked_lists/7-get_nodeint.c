@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <assert.h>
 /**
  * get_nodeint_at_index - Get the nth node of a listint_t list
  * @head: pointer to the head node
@@ -22,6 +21,4 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 		count++;
 		curr = curr->next;
 	}
-
-	assert(NULL);
 }

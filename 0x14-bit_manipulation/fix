@@ -1,4 +1,4 @@
-for file in *.c
+for file in *.h
 do 
     vi +':w ++ff=unix' +':q' "$file"
 done
